@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Firefox Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the test URL]]>
+    </line>
+    <line>
+      <![CDATA[Customer "PEPSI" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[Script passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Firefox Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the test URL]]>
+    </line>
+    <line>
+      <![CDATA[Deleted cust is verified ]]>
+    </line>
+    <line>
+      <![CDATA[Script passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Firefox Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the test URL]]>
+    </line>
+    <line>
+      <![CDATA[Home page is verified]]>
+    </line>
+    <line>
+      <![CDATA[Script passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Firefox Launched]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the test URL]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Mesg is Verified]]>
+    </line>
+    <line>
+      <![CDATA[Script passed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89247" started-at="2017-05-19T18:42:56Z" finished-at="2017-05-19T18:44:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="89247" started-at="2017-05-19T18:42:56Z" finished-at="2017-05-19T18:44:26Z">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@d62f43]" name="precondition" is-config="true" duration-ms="15509" started-at="2017-05-20T00:13:47Z" finished-at="2017-05-20T00:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the test URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="validLoginTest()[pri:1, instance:com.actitime.scripts.LoginTest@d62f43]" name="validLoginTest" duration-ms="6950" started-at="2017-05-20T00:14:03Z" finished-at="2017-05-20T00:14:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@d62f43]" name="postCondition" is-config="true" duration-ms="27" started-at="2017-05-20T00:14:10Z" finished-at="2017-05-20T00:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:1, instance:com.actitime.scripts.LoginTest@d62f43] output=Home page is verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Script passed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@d62f43]" name="precondition" is-config="true" duration-ms="11833" started-at="2017-05-20T00:14:10Z" finished-at="2017-05-20T00:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the test URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="invalidLoginTest()[pri:2, instance:com.actitime.scripts.LoginTest@d62f43]" name="invalidLoginTest" duration-ms="4200" started-at="2017-05-20T00:14:21Z" finished-at="2017-05-20T00:14:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Mesg is Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@d62f43]" name="postCondition" is-config="true" duration-ms="35" started-at="2017-05-20T00:14:26Z" finished-at="2017-05-20T00:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest()[pri:2, instance:com.actitime.scripts.LoginTest@d62f43] output=Invalid Mesg is Verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Script passed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+      <class name="com.actitime.scripts.TaskTest">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02]" name="precondition" is-config="true" duration-ms="16228" started-at="2017-05-20T00:12:56Z" finished-at="2017-05-20T00:13:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the test URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02]" name="createCustomerTest" duration-ms="10396" started-at="2017-05-20T00:13:13Z" finished-at="2017-05-20T00:13:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Customer "PEPSI" has been successfully created.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02]" name="postCondition" is-config="true" duration-ms="27" started-at="2017-05-20T00:13:23Z" finished-at="2017-05-20T00:13:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCustomerTest status=SUCCESS method=TaskTest.createCustomerTest()[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02] output=Customer "PEPSI" has been successfully created.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Script passed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02]" name="precondition" is-config="true" duration-ms="13299" started-at="2017-05-20T00:13:23Z" finished-at="2017-05-20T00:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox Launched]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the test URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="deleteCustomerTest()[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02]" name="deleteCustomerTest" duration-ms="10215" started-at="2017-05-20T00:13:36Z" finished-at="2017-05-20T00:13:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Deleted cust is verified ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02]" name="postCondition" is-config="true" duration-ms="449" started-at="2017-05-20T00:13:47Z" finished-at="2017-05-20T00:13:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCustomerTest status=SUCCESS method=TaskTest.deleteCustomerTest()[pri:0, instance:com.actitime.scripts.TaskTest@14b1c02] output=Deleted cust is verified ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Script passed]]>
+            </line>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.scripts.TaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
